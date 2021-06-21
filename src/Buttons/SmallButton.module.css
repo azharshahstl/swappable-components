@@ -1,0 +1,21 @@
+.Button {
+  font-family: "IBM Plex Sans", sans-serif;
+  line-height: 24px;
+  padding: 4px 16px;
+  background-color: #0048d9;
+  width: 92px;
+  height: 32px;
+  border-radius: 6px;
+  color: white;
+}
+
+.Button:hover {
+  width: 76px;
+  background-color: #002266;
+}
+
+.Button:disabled {
+  width: 97px;
+  border-radius: 8px;
+  background-color: rgba(0, 72, 217, 0.45);
+}
