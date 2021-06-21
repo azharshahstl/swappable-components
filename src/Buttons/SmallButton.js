@@ -3,7 +3,7 @@ import classes from './SmallButton.module.css'
 
 const SmallButton = (props) => {
     return(
-        <div>
+        <div className={classes.SmallButtonDiv}>
             <button className={classes.Button} >
                 button
             </button>

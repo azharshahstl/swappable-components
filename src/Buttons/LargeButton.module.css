@@ -1,3 +1,9 @@
+.LargeButtonDiv {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
 .Button {
   font-family: "IBM Plex Sans", sans-serif;
   line-height: 24px;

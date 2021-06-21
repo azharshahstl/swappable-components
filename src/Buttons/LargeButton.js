@@ -3,7 +3,7 @@ import classes from './LargeButton.module.css'
 
 const LargeButton = (props) => {
     return(
-        <div>
+        <div className={classes.LargeButtonDiv}>
             <button className={classes.Button} >
                 button
             </button>

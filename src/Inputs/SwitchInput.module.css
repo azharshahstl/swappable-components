@@ -1,3 +1,17 @@
+.Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ResQuestion {
+  margin-left: 10px;
+  border: 2px solid grey;
+  padding: 2px;
+  border-radius: 4px;
+  background-color: white;
+}
+
 .Switch {
   position: relative;
   display: flex;
