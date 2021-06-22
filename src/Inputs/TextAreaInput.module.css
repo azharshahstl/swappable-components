@@ -13,7 +13,7 @@
 }
 
 .TAInput {
-  width: 460px;
+  width: 436px;
   height: 139px;
   padding: 12px;
   font-size: 16px;
@@ -21,6 +21,8 @@
   border-radius: 4px;
   font-family: "IBM Plex Sans", sans-serif;
   border-style: none;
+}
 
-  /* top: 25px; */
+.TAInput::-webkit-input-placeholder {
+  color: #b8bcca;
 }

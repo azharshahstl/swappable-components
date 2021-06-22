@@ -17,11 +17,23 @@ class App extends Component {
         <div className="HeaderBox-Bottom">The Formy Form</div>
         <form>
           <TextInput />
+          <br></br>
+          <br></br>
           <TextAreaInput />
+          <br></br>
+          <br></br>
           <SelectInput />
+          <br></br>
+          <br></br>
           <CheckboxInput />
+          <br></br>
+          <br></br>
           <RadioInput />
+          <br></br>
+          <br></br>
           <SwitchInput />
+          <br></br>
+          <br></br>
           <SmallButton />
           <LargeButton />
         </form>

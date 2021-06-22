@@ -24,3 +24,8 @@ form {
   width: 100%;
   text-align: center;
 }
+
+.required:after {
+  content: " *";
+  color: red;
+}

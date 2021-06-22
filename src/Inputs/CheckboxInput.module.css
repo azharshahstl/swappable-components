@@ -13,7 +13,7 @@ input[type="checkbox"] {
   height: 18px;
   margin: 3px 0px 0px 3px;
 }
-label {
+.Inputs > label {
   margin-left: 11px;
   margin-top: 3px;
   width: 31px;
