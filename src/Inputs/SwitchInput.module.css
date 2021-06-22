@@ -74,3 +74,12 @@ input:checked + .SliderRound:before {
 .SliderRound:before {
   border-radius: 50%;
 }
+
+.ResQuestion[disable="false"]:hover {
+  margin-left: 10px;
+  border: 2px solid grey;
+  padding: 2px;
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer;
+}
