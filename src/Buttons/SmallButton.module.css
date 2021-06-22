@@ -4,7 +4,7 @@
   justify-content: center;
 }
 
-.Button {
+.SmallButton {
   font-family: "IBM Plex Sans", sans-serif;
   line-height: 24px;
   padding: 4px 16px;
@@ -15,12 +15,12 @@
   color: white;
 }
 
-.Button:hover {
+.SmallButton:hover {
   width: 76px;
   background-color: #002266;
 }
 
-.Button:disabled {
+.SmallButton:disabled {
   width: 97px;
   border-radius: 8px;
   background-color: rgba(0, 72, 217, 0.45);

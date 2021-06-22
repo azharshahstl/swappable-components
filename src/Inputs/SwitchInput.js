@@ -1,7 +1,9 @@
-import React from 'react'; 
+import React, { useState } from 'react'; 
 import classes from './SwitchInput.module.css'
 
 const SwitchInput = (props) => {
+
+    const [disable, setDisable] = useState("true")
 
     return (
         <div className={classes.Container}>
@@ -11,7 +13,7 @@ const SwitchInput = (props) => {
                 <span className={classes.SliderRound}></span>
                 </label>   
             </div>
-            <button className={classes.ResQuestion}>
+            <button className={classes.ResQuestion} disable={disable}>
                 Do you live in the US?
             </button>
         </div>

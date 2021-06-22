@@ -4,7 +4,7 @@ import classes from './LargeButton.module.css'
 const LargeButton = (props) => {
     return(
         <div className={classes.LargeButtonDiv}>
-            <button className={classes.Button} >
+            <button className={classes.LargeButton} >
                 button
             </button>
         </div>
