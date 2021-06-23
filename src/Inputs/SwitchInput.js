@@ -14,10 +14,11 @@ const SwitchInput = (props) => {
         }
     }
 
-    const handleButtOnClick = (event) => {
-        event.preventDefault();
+    const handleButtOnClick = () => {
+        // event.preventDefault();
         alert("Do you live in the US button has been clicked");
-        setDisable(true);
+        window.Location.reload(true);
+        // setDisable(true);
     }
 
     return (
