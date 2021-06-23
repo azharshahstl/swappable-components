@@ -3,27 +3,32 @@ import classes from './SwitchInput.module.css'
 
 const SwitchInput = (props) => {
 
-    const [disable, setDisable] = useState("true")
+    const [disable, setDisable] = useState(true)
 
     const handleSwitchOnClick = () => {
-        setDisable((!disable).toString());
+        console.log(disable)
+        if (disable === true) {
+        setDisable(false);
+        } else {
+            setDisable(true);
+        }
     }
 
     const handleButtOnClick = (event) => {
         event.preventDefault();
-        setDisable("true");
         alert("Do you live in the US button has been clicked");
+        setDisable(true);
     }
 
     return (
-        <div className={classes.Container} onClick={handleSwitchOnClick}>
+        <div className={classes.Container} >
             <div>
                 <label className={classes.Switch}>
-                <input type="checkbox"/>
-                <span className={classes.SliderRound}></span>
+                <input type="checkbox" onClick={handleSwitchOnClick} />
+                <span className={classes.SliderRound} ></span>
                 </label>   
             </div>
-            <button className={classes.ResQuestion} disable={disable} onClick={handleButtOnClick}>
+            <button className={classes.ResQuestion} disabled={disable} onClick={handleButtOnClick}>
                 Do you live in the US?
             </button>
         </div>
