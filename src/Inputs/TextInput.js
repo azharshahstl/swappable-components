@@ -47,7 +47,7 @@ const TextInput = (props) => {
         onChange={props.inputOnChange} />
         <p className={classes.FailureMessage}>You have failed me for the last time.</p>
         </>
-    } else if (props.success === "default") {
+    } else if (props.success === "default" || props.success === "typing") {
         checkForSuccess = <input type="text" className={classes.Input} 
         typing={props.typing}
         id="answer"
@@ -55,16 +55,7 @@ const TextInput = (props) => {
         value={props.inputValue}
         onBlur={props.inputBlur}
         onChange={props.inputOnChange} />
-    } else if (props.success === "typing"){
-        checkForSuccess = <input type="text" className={classes.Input} 
-        typing={props.typing}
-        id="answer"
-        placeholder="Your answer"
-        value={props.inputValue}
-        onBlur={props.inputBlur}
-        onChange={props.inputOnChange} />
-
-    }
+    } 
 
     return (
         <div className={classes.InputDiv}>
