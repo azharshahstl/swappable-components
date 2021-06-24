@@ -1,5 +1,4 @@
 import React from 'react';
-// import { useState } from 'react';
 import classes from './TextInput.module.css';
 
 const TextInput = (props) => {
