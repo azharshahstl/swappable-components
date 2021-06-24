@@ -2,12 +2,12 @@ import React, { Component } from 'react'
 import './App.css';
 import SmallButton from './Buttons/SmallButton';
 import LargeButton from './Buttons/LargeButton';
-import TextInput from './Inputs/TextInput';
-import TextAreaInput from './Inputs/TextAreaInput';
-import SelectInput from './Inputs/SelectInput';
-import CheckboxInput from './Inputs/CheckboxInput';
-import RadioInput from './Inputs/RadioInput';
-import SwitchInput from './Inputs/SwitchInput';
+import TextInput from './Inputs/TextInput/TextInput';
+import TextAreaInput from './Inputs/TextAreaInput/TextAreaInput';
+import SelectInput from './Inputs/SelectInput/SelectInput';
+import CheckboxInput from './Inputs/CheckboxInput/CheckboxInput';
+import RadioInput from './Inputs/RadioInput/RadioInput';
+import SwitchInput from './Inputs/SwitchInput/SwitchInput';
 
 class App extends Component {
 
